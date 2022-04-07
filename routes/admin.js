@@ -5,7 +5,7 @@ const authentication = require("../middlewares/authentication");
 const authorize = require("../middlewares/authorize");
 const router = require("express").Router();
 
-router.post("/register", AdminController.register);
+router.post("/register", authentication, authorize, AdminController.register);
 router.post("/login", AdminController.login);
 
 router.use(authentication, authorize);

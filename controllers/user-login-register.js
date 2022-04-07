@@ -56,7 +56,10 @@ class UserController {
         status: "active",
       });
 
-      res.json(user);
+      res.json({
+        message: "User registered!",
+        email: user.email,
+      });
     } catch (err) {
       next(err);
     }
