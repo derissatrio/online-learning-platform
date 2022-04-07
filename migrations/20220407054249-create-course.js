@@ -14,6 +14,9 @@ module.exports = {
       price: {
         type: Sequelize.INTEGER,
       },
+      photoUrl: {
+        type: Sequelize.TEXT,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
