@@ -10,7 +10,7 @@ async function authentication(req, res, next) {
       throw {
         code: 401,
         name: "Login not yet",
-        message: "let Sign in first",
+        message: "Let Sign in first",
       };
     }
 

@@ -1,9 +1,34 @@
+const { Op } = require("sequelize");
 const { Course, Category } = require("../models");
 
 class UserCourseController {
   static async allCourses(req, res, next) {
     try {
-      const courses = await Course.findAll();
+      const { search, based } = req.query;
+      const options = {
+        where: {},
+      };
+
+      if (search) {
+        options.where.name = {
+          [Op.iLike]: `%${search}%`,
+        };
+      }
+
+      if (based === "highest") {
+        options.order = [["price", "DESC"]];
+      } else if (based === "lowest") {
+        options.order = [["price", "ASC"]];
+      } else if (based === "free") {
+        options.where.price = 0;
+      }
+
+      const courses = await Course.findAll(options);
+
+      if (based === "lowest") {
+        let lowestCoursesExludeFree = courses.filter((el) => el.price > 0);
+        return res.status(200).json(lowestCoursesExludeFree);
+      }
       res.status(200).json(courses);
     } catch (err) {
       next(err);

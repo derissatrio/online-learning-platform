@@ -56,7 +56,10 @@ class AdminController {
         status: "active",
       });
 
-      res.json(user);
+      res.json({
+        message: "New Admin has added!",
+        email: user.email,
+      });
     } catch (err) {
       next(err);
     }
