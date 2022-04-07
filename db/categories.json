@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Design",
+    "rating": 81
+  },
+  {
+    "name": "Development",
+    "rating": 89
+  },
+  {
+    "name": "Marketing",
+    "rating": 34
+  },
+  {
+    "name": "Business",
+    "rating": 78
+  },
+  {
+    "name": "Photography",
+    "rating": 90
+  }
+]

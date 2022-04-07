@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Full Stack JavaScript Immersive",
+    "CategoryId": 2,
+    "price": 800000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?t=st=1649339967~exp=1649340567~hmac=4090a3f8bb38d0dbfe24880a9b533601fa5a713e52857380e0dece5d79243d32&w=740"
+  },
+  {
+    "name": "Back End JavaScript Immersive",
+    "CategoryId": 2,
+    "price": 500000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?t=st=1649339967~exp=1649340567~hmac=4090a3f8bb38d0dbfe24880a9b533601fa5a713e52857380e0dece5d79243d32&w=740"
+  },
+  {
+    "name": "Front End JavaScript Immersive",
+    "CategoryId": 2,
+    "price": 500000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?t=st=1649339967~exp=1649340567~hmac=4090a3f8bb38d0dbfe24880a9b533601fa5a713e52857380e0dece5d79243d32&w=740"
+  },
+  {
+    "name": "React Developer",
+    "CategoryId": 2,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?t=st=1649339967~exp=1649340567~hmac=4090a3f8bb38d0dbfe24880a9b533601fa5a713e52857380e0dece5d79243d32&w=740"
+  },
+  {
+    "name": "Vue Developer",
+    "CategoryId": 2,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/colourful-illustration-programmer-working_23-2148281410.jpg?t=st=1649339967~exp=1649340567~hmac=4090a3f8bb38d0dbfe24880a9b533601fa5a713e52857380e0dece5d79243d32&w=740"
+  },
+  {
+    "name": "Adobe Photoshop Master",
+    "CategoryId": 1,
+    "price": 250000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/graphic-designer-workspace-concept_1284-18695.jpg?t=st=1649340048~exp=1649340648~hmac=63aa571f287eb9832e5fd6afb30a4401e60676a989e058353bf1ccc5fbdff1ea&w=740"
+  },
+  {
+    "name": "Adobe Illustrator Master",
+    "CategoryId": 1,
+    "price": 320000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/graphic-designer-workspace-concept_1284-18695.jpg?t=st=1649340048~exp=1649340648~hmac=63aa571f287eb9832e5fd6afb30a4401e60676a989e058353bf1ccc5fbdff1ea&w=740"
+  },
+  {
+    "name": "UI UX Design",
+    "CategoryId": 1,
+    "price": 299000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/realistic-ui-ux-background_52683-69487.jpg?t=st=1649339779~exp=1649340379~hmac=f273521f7a34e9a63cc6b3fcbd77342088bb98a1fd5fd1a1b4175133e55eab20&w=740"
+  },
+  {
+    "name": "Avid Media Composer",
+    "CategoryId": 1,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/graphic-designer-workspace-concept_1284-18695.jpg?t=st=1649340048~exp=1649340648~hmac=63aa571f287eb9832e5fd6afb30a4401e60676a989e058353bf1ccc5fbdff1ea&w=740"
+  },
+  {
+    "name": "Adobe Audition Master",
+    "CategoryId": 1,
+    "price": 250000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/graphic-designer-workspace-concept_1284-18695.jpg?t=st=1649340048~exp=1649340648~hmac=63aa571f287eb9832e5fd6afb30a4401e60676a989e058353bf1ccc5fbdff1ea&w=740"
+  },
+  {
+    "name": "Digital Marketing",
+    "CategoryId": 3,
+    "price": 430000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-photo/marketing-strategy-connting-digital-devices-concept_53876-23053.jpg?t=st=1649337353~exp=1649337953~hmac=eb05e90f7153d127bd2e01cbe9d707d7b8ae56b72d1550b27601567b1883e611&w=740"
+  },
+  {
+    "name": "Google Ads For Beginners",
+    "CategoryId": 3,
+    "price": 459000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-photo/online-marketing-commercial-connection-technology_53876-132688.jpg?t=st=1649340194~exp=1649340794~hmac=08b542fb13e757f2b9de6b14d8495918353bc3e7afc8a35e0f858a3d70e5f3cd&w=740"
+  },
+  {
+    "name": "Social Media Marketing",
+    "CategoryId": 3,
+    "price": 500000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/mobile-marketing-concept-illustration_114360-1497.jpg?t=st=1649340219~exp=1649340819~hmac=bff5f924878344e8936427d0028dcc5942b4412fa0dc387baae68b6e408ac850&w=740"
+  },
+  {
+    "name": "Facebook Marketing",
+    "CategoryId": 3,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?t=st=1649340219~exp=1649340819~hmac=02c9a5b10755dae3cc593be2bbf33e18ab56346e62ed0a2c88dbfc7e1fde54fe&w=740"
+  },
+  {
+    "name": "Event Planning",
+    "CategoryId": 3,
+    "price": 350000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg?t=st=1649340219~exp=1649340819~hmac=02c9a5b10755dae3cc593be2bbf33e18ab56346e62ed0a2c88dbfc7e1fde54fe&w=740"
+  },
+  {
+    "name": "Chief Financial Officer",
+    "CategoryId": 4,
+    "price": 550000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/money-income-attraction_74855-6573.jpg?t=st=1649340297~exp=1649340897~hmac=98604a4a324ebddda2d4447293891db287092300d0a94f1f5bc499b3c3c28d83&w=740"
+  },
+  {
+    "name": "Customer Service Training",
+    "CategoryId": 4,
+    "price": 580000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/money-income-attraction_74855-6573.jpg?t=st=1649340297~exp=1649340897~hmac=98604a4a324ebddda2d4447293891db287092300d0a94f1f5bc499b3c3c28d83&w=740"
+  },
+  {
+    "name": "Novel Writing Workshop",
+    "CategoryId": 4,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/money-income-attraction_74855-6573.jpg?t=st=1649340297~exp=1649340897~hmac=98604a4a324ebddda2d4447293891db287092300d0a94f1f5bc499b3c3c28d83&w=740"
+  },
+  {
+    "name": "Minute Taking at Meetings",
+    "CategoryId": 4,
+    "price": 450000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/money-income-attraction_74855-6573.jpg?t=st=1649340297~exp=1649340897~hmac=98604a4a324ebddda2d4447293891db287092300d0a94f1f5bc499b3c3c28d83&w=740"
+  },
+  {
+    "name": "Basic Food Photography",
+    "CategoryId": 5,
+    "price": 350000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/professional-photographer-working-studio_52683-22993.jpg?t=st=1649340350~exp=1649340950~hmac=b6a1fe33d295dbe3a91242df057d644d08e9eefa0ea2ddbb56121aceda111e5a&w=740"
+  },
+  {
+    "name": "Beginner Nikon DSLR",
+    "CategoryId": 5,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/professional-photographer-working-studio_52683-22993.jpg?t=st=1649340350~exp=1649340950~hmac=b6a1fe33d295dbe3a91242df057d644d08e9eefa0ea2ddbb56121aceda111e5a&w=740"
+  },
+  {
+    "name": "Video Cinematography",
+    "CategoryId": 5,
+    "price": 0,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/professional-photographer-working-studio_52683-22993.jpg?t=st=1649340350~exp=1649340950~hmac=b6a1fe33d295dbe3a91242df057d644d08e9eefa0ea2ddbb56121aceda111e5a&w=740"
+  },
+  {
+    "name": "Sound for film and television",
+    "CategoryId": 5,
+    "price": 500000,
+    "UserId": 1,
+    "photoUrl": "https://img.freepik.com/free-vector/professional-photographer-working-studio_52683-22993.jpg?t=st=1649340350~exp=1649340950~hmac=b6a1fe33d295dbe3a91242df057d644d08e9eefa0ea2ddbb56121aceda111e5a&w=740"
+  }
+]
