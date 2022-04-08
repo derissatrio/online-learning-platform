@@ -4,5 +4,11 @@
     "password": "deris123",
     "role": "admin",
     "status": "active"
+  },
+  {
+    "email": "rezaalwasi@gmail.com",
+    "password": "reza123",
+    "role": "admin",
+    "status": "active"
   }
 ]
