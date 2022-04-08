@@ -705,6 +705,40 @@ OR
 Description:
 *Get all courses*
 
+You can using query for sorting or searching:
+
+Request: 
+
+- query
+
+```json
+{
+  "search": "full stack"
+}
+```
+
+For sorting based highest, lowest, and free:
+- query
+
+```json
+{
+  "based": "highest"
+},
+OR
+{
+  "based": "lowest"
+}
+OR
+{
+  "based": "free"
+}
+OR
+{
+  "search": "full stack",
+  "based": "lowest"
+}
+```
+
 _Response (200 - OK)_
 
 ```json
