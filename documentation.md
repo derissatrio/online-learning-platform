@@ -2,6 +2,7 @@
 - npm i bcryptjs cors dotenv express jsonwebtoken pg sequelize cloudinary
 
 # Link Deploy Heroku
+<https://course-online-elemes.herokuapp.com>
 
 # REST API
 
