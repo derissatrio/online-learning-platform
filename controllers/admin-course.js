@@ -1,3 +1,4 @@
+const uploadPhoto = require("../cloudinary/uploader");
 const { Course, User } = require("../models");
 
 class AdminCourseController {
@@ -32,6 +33,8 @@ class AdminCourseController {
       const { UserId } = req.userLogin;
       let { name, price, photoUrl, CategoryId } = req.body;
 
+      photoUrl = await uploadPhoto(photoUrl);
+
       if (price === "free") {
         price = 0;
       }
@@ -53,7 +56,7 @@ class AdminCourseController {
   static async editCourse(req, res, next) {
     try {
       const { id } = req.params;
-      const { name, price, photoUrl, CategoryId } = req.body;
+      let { name, price, CategoryId } = req.body;
 
       const course = await Course.findByPk(+id);
 
@@ -65,11 +68,14 @@ class AdminCourseController {
         };
       }
 
+      if (price === "free") {
+        price = 0;
+      }
+
       await Course.update(
         {
           name,
           price: +price,
-          photoUrl,
           CategoryId: +CategoryId,
         },
         {
@@ -82,6 +88,7 @@ class AdminCourseController {
         message: "Course has been edited!",
       });
     } catch (err) {
+      console.log(err);
       next(err);
     }
   }
