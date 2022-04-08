@@ -1,5 +1,7 @@
 # Installation
-- npm i bcryptjs cors dotenv express jsonwebtoken pg sequelize
+- npm i bcryptjs cors dotenv express jsonwebtoken pg sequelize cloudinary
+
+# Link Deploy Heroku
 
 # REST API
 
@@ -139,18 +141,20 @@ OR
 
 &nbsp;
 
-## 3. POST /admin/courses NOT YET
+## 3. POST /admin/courses
 
 Description:
-*Create New Admin, but login account role of admin is required for add new admin*
+*Add new course*
 
 Request:
 - body
 
 ```json
 {
-  "email": "string (email format)",
-  "password": "string"
+  "name": "Inkscape Master",
+  "price": "free",
+  "photoUrl": "./inkscape.jpg",
+  "CategoryId": "1"
 }
 
 ```
@@ -168,8 +172,17 @@ _Response (201 - Created)_
 
 ```json
 {
-  "message": "string",
-  "email": "String
+  "message": "New course has added!",
+  "course": {
+    "id": 28,
+    "name": "Inkscape Master cloud",
+    "price": 0,
+    "photoUrl": "https://res.cloudinary.com/dohseq683/image/upload/v1649405618/izvlyjd7fej0ii0jj1il.jpg",
+    "CategoryId": 1,
+    "UserId": 5,
+    "updatedAt": "2022-04-08T08:13:38.865Z",
+    "createdAt": "2022-04-08T08:13:38.865Z"
+  }
 }
 
 ```
@@ -186,23 +199,27 @@ _Response (400 - Bad Request)_
 
 ```json
 {
-  "message": "Email Is Required!"
+  "message": "Name Is Required!"
 }
 OR
 {
-  "message": "Email Has Been Taken!"
+  "message": "Name cannot be null!"
+},
+OR
+{
+  "message": "Price Is Required!"
 }
 OR
 {
-  "message": "Password Is Required!"
+  "message": "Price cannot be null!"
+},
+OR
+{
+  "message": "Photo URL Is Required!"
 }
 OR
 {
-  "message": "Email cannot be null!"
-}
-OR
-{
-  "message": "Password cannot be null!"
+  "message": "Photo URL cannot be null!"
 }
 ```
 
@@ -393,18 +410,20 @@ OR
 
 &nbsp;
 
-## 7. PUT /admin/courses NOT YET
+## 7. PUT /admin/courses/:id
 
 Description:
-*Create New Admin, but login account role of admin is required for add new admin*
+*Edit course by id*
 
 Request:
 - body
 
 ```json
 {
-  "email": "string (email format)",
-  "password": "string"
+  "name": "Inkscape Master Edit",
+  "price": "free",
+  "photoUrl": "./inkscape.jpg",
+  "CategoryId": "1"
 }
 
 ```
@@ -418,12 +437,11 @@ Request:
 
 ```
 
-_Response (201 - Created)_
+_Response (200 - OK)_
 
 ```json
 {
-  "message": "string",
-  "email": "String
+  "message": "Course has been edited!"
 }
 
 ```
@@ -440,23 +458,27 @@ _Response (400 - Bad Request)_
 
 ```json
 {
-  "message": "Email Is Required!"
+  "message": "Name Is Required!"
 }
 OR
 {
-  "message": "Email Has Been Taken!"
+  "message": "Name cannot be null!"
+},
+OR
+{
+  "message": "Price Is Required!"
 }
 OR
 {
-  "message": "Password Is Required!"
+  "message": "Price cannot be null!"
+},
+OR
+{
+  "message": "Photo URL Is Required!"
 }
 OR
 {
-  "message": "Email cannot be null!"
-}
-OR
-{
-  "message": "Password cannot be null!"
+  "message": "Photo URL cannot be null!"
 }
 ```
 
